@@ -1,0 +1,18 @@
+import numpy as np
+
+A = np.arange(2,14).reshape(3,4)
+a = np.argmin(A)
+b = np.argmax(A)
+print(a)
+print(b)
+print(A)
+print(np.mean(A))
+print(A.mean())
+print(np.median(A))
+print("===============")
+print(A)
+print(np.cumsum(A))
+print("===============")
+print(A)
+print(np.transpose(A))
+print(A.T)
